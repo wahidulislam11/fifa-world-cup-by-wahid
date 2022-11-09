@@ -1,0 +1,488 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+.header{
+    color: #ffffff;
+    position: absolute;
+    width: 1321px;
+    height: 646px;
+    left: 140px;
+    top: 50px;
+    background: #161616;
+    border-radius: 30px;
+}
+.heading-text{
+    font-family:'Poppins', sans-serif;
+    color: #FFFFFF;
+    position: absolute;
+    width: 600px;
+    margin-left: 106px;
+    margin-top: 65px;
+    position: absolute;
+}
+.heading-text h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 80px;
+    margin-bottom: -15px;
+}
+.heading-img img{
+    position: absolute;
+    width: 581px;
+    height: 613px;
+    margin-left: 650px;
+    margin-right: 79px;
+    margin-top: 33px;
+}
+.watch-btn{
+    color: #ffffff;
+    position: absolute;
+    font-size: 20px;
+    width: 187px;
+    height: 56px;
+    margin-bottom: 111px;
+    margin-top: px;
+    background: #DD0000;
+    border-radius: 5px;
+}
+.grid-tamp {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 20px;
+    column-gap: 20px;
+    margin-bottom: 20px;
+}
+.match-link{
+    width: 312px;
+    height: 312px;
+    left: 140px;
+    top: 826px;
+    background: #161616;
+    border-radius: 10px;;
+    margin-right: 24px;
+}
+
+.match{
+    font-weight: 600;
+    font-size: 20px;
+    color: #161616;
+    background: #ffffff;
+    border-radius: 10px;
+    position: absolute;
+    width: 252px;
+    height: 64px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.group{
+    font-weight: 600;
+    font-size: 20px;
+    color: #161616;
+    background: #ffffff;
+    border-radius: 10px;
+    width: 252px;
+    height: 64px;
+    position: absolute;
+    margin-top: 124px;
+    margin-left: 30px;
+}
+.blog{
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    background: #DD0000;
+    border-radius: 10px;
+    width: 252px;
+    height: 64px;
+    position: absolute;
+    margin-top: 218px;
+    margin-left: 30px;
+}
+#red {
+    background: #DD0000;
+    color: white;
+    border: none;
+}
+
+.match-tamplates {
+    margin-top: 826px;
+    margin-bottom: 130px;
+    display: flex;
+    margin-left: 90px;
+}
+
+.tamplates {
+    border: 1px solid #E8E8E8;
+    width: 312px;
+    height: 362px;
+
+}
+
+.tamp-text {
+    margin-left: 15px;
+    margin-bottom: 20px;
+}
+
+.tamp-text h5 {
+    border: 1px solid;
+    border-radius: 5px;
+    width: 100px;
+    padding: 7px;
+    text-align: center;
+}
+
+.tamp-icons {
+    display: flex;
+}
+
+/* hidden button  */
+.hidden-btn {
+    font-size: 20px;
+    color: white;
+    width: 157px;
+    height: 56px;
+    background: #DD0000;
+    border-radius: 5px;
+    margin-left: 48%;
+    margin-top: 30px;
+    display: none;
+}
+
+footer {
+    background: #161616;
+    width: 1600px;
+    height: 444px;
+}
+
+.footer-links {
+    color: white;
+}
+
+.footer-links h1 {
+    text-align: center;
+    padding-top: 150px;
+    margin-bottom: 35px;
+}
+
+hr {
+    width: 80%;
+    border: 1px solid #FFFFFF1A
+}
+
+.links {
+    display: flex;
+    margin-left: 22%;
+    margin-top: 50px;
+
+}
+
+.links h6 {
+    margin-left: 70px;
+    font-size: 16px;
+    color: #B9B9B9;
+
+}
+
+.social {
+    margin-top: 16px;
+    margin-left: px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    /* height: 32px; */
+    gap: 15px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.fa-instagram {
+    /* margin-right: 16px; */
+    /* color: white; */
+    background: #343453;
+    color: #FFFFFF;
+    opacity: 1;
+    padding: 7px;
+    border-radius: 50%;
+
+}
+
+.fa-dribbble {
+    /* margin-right: 16px; */
+    background: #343453;
+    color: #FFFFFF;
+    opacity: 1;
+    padding: 7px;
+    border-radius: 50%;
+}
+
+.fa-twitter {
+    /* margin-right: 16px; */
+    background: #343453;
+    color: #FFFFFF;
+    opacity: 1;
+    padding: 7px;
+    border-radius: 50%;
+}
+
+.fa-youtube {
+    background: #343453;
+    color: #FFFFFF;
+    opacity: 1;
+    padding: 7px;
+    border-radius: 50%;
+
+}
+
+
+/* media quaries for tablet devices */
+@media only screen and (min-width: 491px) and (max-width:768px) {
+
+    .header {
+        width: 700px;
+        height: 410px;
+        margin-left: 50px;
+    }
+
+    .heading-text {
+        margin-left: 60px;
+        margin-top: 20px;
+    }
+
+    .heading-text h1 {
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    /* .mobile {
+        display: none;
+    } */
+
+    .heading-text p {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .heading-text p span {
+        display: none;
+    }
+
+    .watch-btn {
+        width: 161px;
+        height: 48px;
+    }
+
+    .heading-img {
+        position: absolute;
+        width: 323px;
+        height: 340px;
+        left: 400px;
+        top: 78px;
+    }
+
+
+
+
+
+
+    .match-tamplates {
+        flex-direction: column;
+    }
+
+    /* .upcoming {
+        display: none;
+    } */
+    .upcoming {
+        top: 10px;
+        width: 0;
+        height: 0;
+        background: none;
+        margin-bottom: 100px;
+        /* display: none; */
+    }
+
+    .match-link h3 {
+        border: 1px solid black;
+        /* width: 230px;
+        height: 64px; */
+        margin-right: 20px;
+        padding: 5px 30px;
+        font-size: 20px;
+        line-height: 30px;
+
+    }
+
+    .red {
+        border: 1px solid;
+        width: 30px;
+
+    }
+
+    .match-link {
+        /* width: 150px;
+        height: 50px; */
+        display: flex;
+    }
+
+    .grid-tamp {
+        margin-top: 50px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .hidden-btn {
+        margin-top: 40px;
+        margin-bottom: 50px;
+        display: block;
+    }
+
+    footer {
+        width: 100%;
+        height: 70vh;
+    }
+
+    .footer-links h1 {
+        padding-top: 60px;
+        font-size: 40px;
+        line-height: 60px;
+    }
+
+    .links {
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        margin-left: 50px;
+    }
+
+
+
+
+
+
+}
+
+
+/* media quries for mobile devices */
+@media only screen and (max-width: 490px) {
+    .header {
+        flex-direction: column;
+        width: 364px;
+        height: 592px;
+        margin-left: 20px;
+    }
+
+    .heading-text {
+        margin-left: 20px;
+        margin-top: 15px;
+    }
+
+    .heading-text h1 {
+        font-size: 22px;
+        line-height: 33px;
+        text-align: center;
+        justify-content: center;
+    }
+
+    /* .mobile {
+        display: flex
+    }
+
+    .media {
+        display: none;
+    } */
+
+    .heading-text h1 span {
+        word-wrap: wrap;
+    }
+
+    .heading-text p {
+        font-size: 14px;
+        line-height: 24px;
+        text-align: center;
+    }
+
+    .heading-text p span {
+        display: none;
+    }
+
+    .watch-btn {
+        margin-left: 80px;
+        width: 161px;
+        height: 40px;
+        font-size: 15px;
+        line-height: 23px;
+        text-align: center;
+    }
+
+    .heading-img {
+
+        width: 233px;
+        height: 245px;
+        left: 54px;
+        top: 259px;
+    }
+
+    .match-link h3 {
+        padding: 10px 15px;
+        width: 174px;
+        height: 30px;
+        text-align: center;
+        border: 1px solid black;
+    }
+
+    #red {
+        width: 160px;
+        height: 48px;
+    }
+
+    .upcoming {
+        background: none;
+        margin-left: 30px;
+    }
+
+    .match-tamplates {
+        flex-direction: column;
+        margin-left: 10px;
+    }
+
+    .grid-tamp {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .tamplates {
+        width: 312px;
+    }
+
+    footer {
+        width: 385px;
+        height: 582px;
+        margin-top: 30px;
+    }
+
+    .footer-links h1 {
+        font-size: 22px;
+        line-height: 33px;
+        padding-top: 50px;
+    }
+
+    .links {
+        margin-left: 0px;
+        text-align: center;
+        margin-top: 10px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .links h6 {
+        margin-left: 20px;
+        margin-top: 5px;
+    }
+
+    .social {
+        margin-left: 18px;
+    }
+
+}
